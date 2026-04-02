@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## Uso
 
 ```bash
-# Desde el directorio /legislative_pipeline acceder a src
+# Desde el directorio /Prueba-Tecnica-Extend acceder a src
 cd src
 
 # Luego para correr part1.py (dentro de la carpeta /src):
@@ -47,7 +47,7 @@ python part2.py
 ```
 # Tests
 ```bash
-# Para correr los test unitarios de part1.py, se debe salir de /src e ir al directorio /legislative_pipeline:
+# Para correr los test unitarios de part1.py, se debe salir de /src e ir al directorio /Prueba-Tecnica-Extend:
 cd ..
 
 # Luego para ejecutar los tests unitarios:
