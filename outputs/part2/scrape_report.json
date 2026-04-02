@@ -1,0 +1,66 @@
+[
+  {
+    "seed_url": "https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBoletin=11422-07&prmID=11934",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 58,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBOLETIN=12768-15&prmID=13307",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 7,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBOLETIN=12490-07&prmID=13024",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 5,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=15516-34&prmID=16048",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 63,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=16821-19&prmID=17429",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 58,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBOLETIN=17522-12&prmID=18162",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 5,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmBOLETIN=17245-12&prmID=17878",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 19,
+    "error_message": null
+  },
+  {
+    "seed_url": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18137-05&prmID=18800",
+    "fetch_ok": true,
+    "parse_ok": true,
+    "http_status": 200,
+    "row_count": 16,
+    "error_message": null
+  }
+]
