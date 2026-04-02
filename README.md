@@ -14,8 +14,8 @@
 | `pandas` | Carga y manipulación de CSV |
 | `python-dateutil` | Parseo flexible de fechas | 
 | `beautifulsoup4` | Extracción de texto de HTML / decodificación de snippets | 
-| ``lxml`` | |Procesamiento de HTML y XML de forma  rápida.| 
-| `solenium` | |Herramienta para automatizar un navegador real|
+| ``lxml`` | Procesamiento de HTML y XML de forma  rápida.| 
+| `solenium` |Herramienta para automatizar un navegador real|
 
 > **Nota:** `beautifulsoup4` se usa para limpiar campos `title_raw` y `summary_raw` que pueden
 > contener HTML embebido (etiquetas, entidades). 
@@ -69,7 +69,7 @@ pytest tests/ -v
 | `title, summary`,`summary` | Strip, decode de entidades HTML, eliminación de tags HTML (BeautifulSoup), colapso de espacios internos a un solo espacio |
 | `bulletin_number` | Canonización a NNNNN-DD; acepta sin guion, con /, con espacios; rechaza si el sufijo no es numérico o si tiene mas de 5 digitos el prefijo |
 | `published_at`,` event_date` | Parsing flexible con dateutil; salida YYYY-MM-DD si solo hay fecha, YYYY-MM-DDTHH:MM:SS si hay hora |
-| `authors` | |Se normaliza a una única cadena usando el separador ' | ', sin duplicados  y sin espacios|
+| `authors` | Se normaliza a una única cadena usando el separador '\|', sin duplicados  y sin espacios|
 | `canonical_url`,` canonical_document_url` | Lowercase del host, eliminación de tracking params (utm_*, gclid, fbclid), se elimina el '/' final de la ruta |
 ## 4. Criterio usado para elegir el registro canónico en duplicados
 Los duplicados se detectan por tres llaves, aplicadas en orden de prioridad:
@@ -79,10 +79,9 @@ Los duplicados se detectan por tres llaves, aplicadas en orden de prioridad:
 
 Dentro de cada grupo de duplicados, el canónico se elige ordenando por:
 
-Riqueza DESC – mayor cantidad de campos relevantes no vacíos (url, document_url,
-    title, bulletin_number, summary, etc.)
-source_type ASC – jerarquía detail > table > api > news > misc > otros
-Fecha más reciente DESC – se toma el máximo entre published_at y event_date
+-Riqueza DESC – mayor cantidad de campos relevantes no vacíos (url, document_url, title, bulletin_number, summary, etc.)
+-source_type ASC – jerarquía detail > table > api > news > misc > otros
+-Fecha más reciente DESC – se toma el máximo entre published_at y event_date
 
 ## 5. Edge cases considerados
 # Normalizacion y deduplicacion CSV
