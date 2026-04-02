@@ -68,4 +68,6 @@ Se implementa con una clave de ordenamiento compuesta:
 ## 6. Limitaciones actuales
 ## 7. Qué harías para llevar esta solución a producción
 ## 8. Tiempo invertido
+El tiempo invertido en el desarrollo del proyecto fue de aproximadamente 10 a 12 horas. Donde se revisó cada detalle de manera cuidadosa, para asegurar que cada componente estuviera correctamente implementado y que el resultado final tuviera la calidad necesaria.
 ## 9. Herramientas externas usadas (incluyendo IA, si aplica)
+Se utilizó inteligencia artificial como apoyo durante el desarrollo del proyecto, principalmente el modelo Claude Sonnet 4.6 y tambien GPT. Estas herramientas se emplearon para asistir en tareas de generación de código y resolución de dudas técnicas
