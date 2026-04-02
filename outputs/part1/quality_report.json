@@ -1,0 +1,14 @@
+{
+  "input_rows": 258,
+  "normalized_rows": 47,
+  "rejected_rows": 49,
+  "duplicate_groups": 30,
+  "duplicates_removed": 162,
+  "parse_errors_by_field": {
+    "bulletin_number": 8,
+    "published_at": 14,
+    "event_date": 19,
+    "url_raw": 10,
+    "document_url_raw": 0
+  }
+}
